@@ -19,6 +19,8 @@ para que otro pueda crecer.
 
 ### Imagen de referencia de proyecto
 
+![imagen examen](./img/examen.png)
+
 Deja acá una imagen de la "portada" de tu proyecto. Como si fuera un afiche. Puede ser un fotograma de toda la interacción.
 
 ### Integrantes
@@ -32,7 +34,7 @@ Estudiante B [pansitoaceituna)
 
 ### Enlace de p5.js 
 
-https://editor.p5js.org/martiiii/sketches/SybgwVB7u
+(https://editor.p5js.org/martiiii/sketches/SybgwVB7u)
 
 ### Relato inicial
 
