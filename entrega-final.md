@@ -48,10 +48,10 @@ Imágenes del storyboard, las que deben verse acá y estar subidas en el mismo r
 
 ###Estado 0: Pantalla inicial negra
 
-📝 Explicación
+ Explicación
 
 Es la primera pantalla que se ve al abrir el juego. Tiene un fondo negro y solo muestra un mensaje para indicar que el usuario debe hacer clic para empezar. Mientras tanto, el programa carga en segundo plano la música y los recursos necesarios. Sirve como punto de partida y de espera.
-💻 Código
+ Código
 
 javascript
 
@@ -71,10 +71,10 @@ function estadoInicial() {
 
 #### Estado 1: Día nublado - Inicio de la historia
 
-📝 Explicación
+ Explicación
 
 Aparece un cielo de color grisáceo cubierto de nubes. En la parte inferior se dibuja el tallo y la flor pequeña, que aún no ha podido crecer. Se muestra el texto que cuenta la situación: la flor necesita luz para vivir, pero el cielo está completamente tapado. Aquí se presenta el reto principal: debemos ayudarla.
-💻 Código
+ Código
 
 javascript
 
@@ -98,10 +98,10 @@ function estadoDiaNublado() {
 }
 ###Estado 2: Explicación del reto
 
-📝 Explicación
+ Explicación
 
 Se mantiene el mismo fondo nublado, pero ahora se detallan claramente las instrucciones. Le dice al usuario qué debe hacer en cada etapa: subir la flor, quitar las nubes y luego ayudar a Pou. Es la guía para que se entienda cómo jugar y qué se espera en cada momento.
-💻 Código
+ Código
 
 javascript
 
@@ -126,10 +126,10 @@ function estadoExplicacionReto() {
 }
 ### Estado 3: Subiendo con scroll
 
-📝 Explicación
+ Explicación
 
 Aquí comienza la acción principal. Al mover la rueda del ratón hacia abajo, la flor va subiendo poco a poco por el tallo. La velocidad es controlada para que sea un proceso progresivo y requiera esfuerzo. En pantalla se ve el porcentaje de avance. Representa el acompañamiento y el cuidado: hacemos el camino junto a ella.
-💻 Código
+ Código
 
 javascript
 
@@ -162,10 +162,10 @@ function estadoSubiendo() {
 }
 ###Estado 4: Quitar nubes con scroll
 
-📝 Explicación
+ Explicación
 
 Cuando la flor llega a la parte más alta, las nubes no desaparecen solas. Ahora hay que usar la rueda del ratón: hacia abajo para quitar las de la izquierda y hacia arriba para las de la derecha. Se muestra cuántas faltan. Esta etapa significa eliminar obstáculos para que llegue la luz, tal como se cuida a alguien quitando lo que le impide avanzar.
-💻 Código
+ Código
 
 javascript
 
@@ -200,10 +200,10 @@ function estadoQuitarNubes() {
 }
 ###Estado 5: Pantalla inicio Pou
 
-📝 Explicación
+Explicación
 
 Una vez despejado el cielo, este cambia a un color azul claro. Se dibuja el tallo completo en el centro. Se muestra el título del juego y se explica que el objetivo es llegar a 100 puntos para que la flor florezca. Es la transición hacia el último reto.
-💻 Código
+ Código
 
 javascript
 
@@ -226,10 +226,10 @@ function pantallaInicioPou() {
 }
 ###Estado 6: Jugando Pou
 
-📝 Explicación
+Explicación
 
 Aquí comienza el reto final: el personaje Pou cae por gravedad, y el usuario lo mueve con el ratón. Cada vez que toca una plataforma, salta y sube. A medida que avanza, se suman puntos. Al llegar a 100 puntos, se gana. Representa el esfuerzo final para garantizar que todo salga bien y cumplir nuestra promesa de cuidado.
-💻 Código
+ Código
 
 javascript
 
@@ -292,10 +292,10 @@ function jugandoPou() {
 }
 ###Estado 7: Game Over Pou
 
-📝 Explicación
+ Explicación
 
 Si Pou cae al vacío sin tocar ninguna plataforma, aparece esta pantalla. El fondo se pone negro y se muestra el mensaje “GAME OVER”. Se invita a hacer clic para volver a intentarlo. Refleja que, si fallamos, siempre podemos volver a empezar para seguir cuidando a la flor.
-💻 Código
+ Código
 
 javascript
 
@@ -314,10 +314,10 @@ function gameOverPou() {
 }
 ###Estado 8: Pantalla de Victoria
 
-📝 Explicación
+ Explicación
 
 Al llegar a los 100 puntos, se alcanza el final. El cielo se aclara por completo, sale el sol brillando y la flor baja hasta el centro, creciendo, girando y rodeada de destellos. Aparece el mensaje de victoria. Es el resultado de todo el camino: cumplimos nuestra promesa de cuidar, acompañar y superar dificultades, tal como lo expresa la canción “I’ll Take Care of You”.
-💻 Código
+ Código
 
 javascript
 
